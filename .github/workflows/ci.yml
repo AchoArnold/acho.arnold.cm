@@ -7,6 +7,10 @@ on:
 
 jobs:
   ci:
+    permissions:
+      contents: read
+      deployments: write
+
     runs-on: ubuntu-latest
 
     steps:
