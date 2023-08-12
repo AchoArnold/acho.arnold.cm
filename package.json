@@ -14,7 +14,7 @@
     "nuxt": "^3.6.5"
   },
   "dependencies": {
-    "@nuxtjs/sitemap": "^2.4.0",
+    "@funken-studio/sitemap-nuxt-3": "^4.0.4",
     "prettier": "^3.0.1"
   }
 }

@@ -1,7 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
-// @ts-ignore
 export default defineNuxtConfig({
-  modules: ["@nuxt/content", "@invictus.codes/nuxt-vuetify"],
+  modules: ["@nuxt/content", "@invictus.codes/nuxt-vuetify", '@funken-studio/sitemap-nuxt-3'],
   vuetify: {
     vuetifyOptions: {
       theme: {
@@ -18,5 +17,10 @@ export default defineNuxtConfig({
       autoImport: true,
       useVuetifyLabs: true,
     },
+  },
+  // @ts-ignore
+  sitemap: {
+    hostname: 'https://acho.arnold.cm',
+    cacheTime: 1
   },
 });
