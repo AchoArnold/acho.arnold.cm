@@ -15,7 +15,6 @@
     "vuetify-nuxt-module": "0.18.3"
   },
   "dependencies": {
-    "@nuxt/content": "^3.2.2",
     "prettier": "^3.5.2",
     "vuetify": "^3.7.13"
   }
