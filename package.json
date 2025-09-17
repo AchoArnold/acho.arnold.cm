@@ -10,7 +10,7 @@
     "@mdi/js": "^7.4.47",
     "@nuxtjs/sitemap": "7.2.6",
     "@types/node": "^18.19.76",
-    "nuxt": "^3.16.0",
+    "nuxt": "^3.19.0",
     "vite-plugin-vuetify": "^2.1.0",
     "vuetify-nuxt-module": "0.18.3"
   },
