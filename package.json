@@ -17,5 +17,12 @@
   "dependencies": {
     "prettier": "^3.5.2",
     "vuetify": "^4.0.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "better-sqlite3",
+      "esbuild"
+    ]
   }
 }
