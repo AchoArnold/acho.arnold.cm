@@ -1,9 +1,6 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    "@nuxtjs/sitemap",
-    "vuetify-nuxt-module",
-  ],
+  modules: ["@nuxtjs/sitemap", "@nuxt/fonts", "vuetify-nuxt-module"],
 
   vuetify: {
     vuetifyOptions: {
@@ -11,16 +8,23 @@ export default defineNuxtConfig({
         defaultTheme: "dark",
       },
       icons: {
-        defaultSet: 'mdi-svg',
-      }
-    },
-    moduleOptions: {
+        defaultSet: "mdi-svg",
+      },
     },
   },
 
+  fonts: {
+    families: [{ name: "Inter", provider: "google" }],
+    defaults: {
+      weights: [400, 500, 600, 700],
+    },
+  },
+
+  css: ["~/assets/css/main.css"],
+
   site: {
-    url: 'https://acho.arnold.cm',
-    name: 'My Personal Website'
+    url: "https://acho.arnold.cm",
+    name: "My Personal Website",
   },
 
   compatibilityDate: "2025-02-25",
