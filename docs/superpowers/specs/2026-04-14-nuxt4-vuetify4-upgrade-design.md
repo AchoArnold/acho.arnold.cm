@@ -25,6 +25,7 @@ app/
   app.vue
 assets/            (stays at root)
   x-logo.svg
+content/           (stays at root)
 public/            (stays at root)
 server/            (stays at root)
 nuxt.config.ts     (stays at root)
@@ -41,6 +42,7 @@ tsconfig.json      (stays at root)
 | `vuetify-nuxt-module` | `0.18.3`  | `^1.0.0-beta.2`                         |
 | `@nuxt/fonts`         | —         | `^0.11.0` (latest)                      |
 | `vite-plugin-vuetify` | `^2.1.0`  | Remove (handled by vuetify-nuxt-module) |
+| `@nuxtjs/sitemap`     | `7.2.6`   | Upgrade to latest Nuxt 4 compatible     |
 
 ### 3. Nuxt Config Updates (`nuxt.config.ts`)
 
