@@ -1,4 +1,1 @@
-onlyBuiltDependencies:
-  - "@parcel/watcher"
-  - "better-sqlite3"
-  - "esbuild"
+dangerouslyAllowAllBuilds: true
