@@ -9,7 +9,7 @@
   "devDependencies": {
     "@mdi/js": "^7.4.47",
     "@nuxt/fonts": "^0.11.0",
-    "@nuxtjs/sitemap": "^7.2.6",
+    "@nuxtjs/sitemap": "^8.0.12",
     "@types/node": "^22.0.0",
     "nuxt": "^4.0.0",
     "vuetify-nuxt-module": "^1.0.0-beta.2"
@@ -20,9 +20,7 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "better-sqlite3",
-      "esbuild"
+      "*"
     ]
   }
 }
