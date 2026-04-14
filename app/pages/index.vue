@@ -40,11 +40,11 @@ useHead({
             >
               <v-img src="/peep-bg-none.png"></v-img>
             </v-avatar>
-            <v-card-title class="text-h5 text-center">
+            <v-card-title class="text-display-medium text-center">
               Acho Arnold
             </v-card-title>
 
-            <v-card-subtitle class="text-subtitle-1">
+            <v-card-subtitle class="text-body-large">
               Welcome to my personal website.
               <br />
               Don't be a stranger
@@ -58,7 +58,7 @@ useHead({
                 :icon="mdiLinkedin"
               />
               <v-btn
-                color="#000000"
+                color="#ffffff"
                 href="https://github.com/AchoArnold"
                 variant="text"
                 :icon="mdiGithub"
