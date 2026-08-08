@@ -11,7 +11,7 @@
     "@nuxt/fonts": "^0.11.0",
     "@nuxtjs/sitemap": "^8.0.12",
     "@types/node": "^22.0.0",
-    "nuxt": "^4.4.7",
+    "nuxt": "^4.5.1",
     "vuetify-nuxt-module": "^1.0.0-beta.2"
   },
   "dependencies": {
